@@ -3,8 +3,8 @@
     .version = "1.0.0",
     .dependencies = .{
         .toolbox = .{
-            .url = "git+https://github.com/banshay/toolbox.git#8c9897ed15cea9a576095637de85f66d978ab0c4",
-            .hash = "toolbox-1.12.6-kRAu4MldAAAGvkmXQJ4vkc4sjRfIg9TTXaZJXpDZJmOp",
+            .url = "git+https://github.com/banshay/toolbox#ed761167bcbdb299528990ee557041fc2914ba6a",
+            .hash = "toolbox-1.12.6-kRAu4K1cAADmS7UKYNFwt7qD7DeHaKFRp8xJVTgSzqlK",
         },
     },
     .minimum_zig_version = "0.15.1",
