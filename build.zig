@@ -62,7 +62,7 @@ fn update_wayland(toolbox: *Toolbox, path: *const Paths) !void {
     }
 
     const wayland_version = try toolbox.reference(.wayland);
-    var wayland_version_h = try tmp_dir.readFileAlloc(toolbox.getAllocator(), "wayland-version.h.in", std.math.maxInt(usize));
+    var wayland_version_h = try tmp_dir.readFileAlloc("wayland-version.h.in", toolbox.getAllocator(), .unlimited);
     wayland_version_h = try std.mem.replaceOwned(u8, toolbox.getAllocator(), wayland_version_h, "@WAYLAND_VERSION@", wayland_version);
 
     var tokit = std.mem.tokenizeScalar(u8, wayland_version, '.');

@@ -3,11 +3,11 @@
     .version = "1.0.0",
     .dependencies = .{
         .toolbox = .{
-            .url = "git+https://github.com/banshay/toolbox#ed761167bcbdb299528990ee557041fc2914ba6a",
-            .hash = "toolbox-1.12.6-kRAu4K1cAADmS7UKYNFwt7qD7DeHaKFRp8xJVTgSzqlK",
+            .url = "git+https://github.com/banshay/toolbox#21868dea53330ab284a915e0f677c1855c93ea21",
+            .hash = "toolbox-1.12.6-kRAu4KNcAABarB7A8WMGTky2buzWifRrRTdVuiA1dqgb",
         },
     },
-    .minimum_zig_version = "0.15.1",
+    .minimum_zig_version = "0.16.0-dev.1484+d0ba6642b",
     .fingerprint = 0x879377398f3e6626,
     .paths = .{
         "build.zig",
